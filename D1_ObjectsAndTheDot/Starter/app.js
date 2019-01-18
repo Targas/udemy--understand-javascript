@@ -1,0 +1,12 @@
+var person = new Object();
+
+person["firstname"] = "aaa";
+person["lastname"] = "bbb";
+
+var firstNameProperty = "firstname";
+
+console.log(person);
+console.log(person[firstNameProperty]);
+
+console.log(person.firstname);
+console.log(person.lastname);
